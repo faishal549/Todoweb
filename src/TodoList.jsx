@@ -69,7 +69,7 @@ const TodoList = () => {
             <div className="container">
                 <div className="todolist">
                     <div className="title">
-                        <h1>TodoList :📝</h1>
+                        <h1 className="title_todo">TodoList :📝</h1>
                     </div>
                     <div className="section">
                         <input type="text" placeholder="Add TODO :)" className="inputBar"
@@ -77,7 +77,7 @@ const TodoList = () => {
                         <button className="btn" onClick={handleAddTodo}>ADD</button>
                     </div>
                     <div className="listItem">
-                        {todo.length === 0 ? <h1>No Items are in TODO 🎃</h1> :
+                        {todo.length === 0 ? <h1 className="msg">No Items are in TODO 🎃</h1> :
                             <ul>
                                 {
 

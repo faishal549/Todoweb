@@ -129,7 +129,7 @@ span {
 }
 
 .btnDelete {
-  padding: 0.1rem 1.3rem;
+  padding: 0.5rem 1.3rem;
   border: none;
   border-radius: 20px;
   background-color: #FEE715;
@@ -179,5 +179,20 @@ span {
 .lineThrough {
   text-decoration: line-through;
   color: #12e1f3;
+
+}
+
+.msg {
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #FEE715;
+}
+
+.title_todo {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  letter-spacing: 2px;
+  color: #12e1f3;
+  text-shadow: 0px 5px 7px rgba(57, 237, 238, 0.72);
+
 
 }
